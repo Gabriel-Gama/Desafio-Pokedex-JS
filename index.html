@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/color-pokemons.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+</head>
+
+<body>
+    <section class="content">
+        <h1 class="gradient">POKEDEX</h1>
+
+        <ol id="pokemonList" class="pokemons">
+            <li class="pokemon grass">
+                <span class="number">#1</span>
+                <span class="name">bulbasaur</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                        alt="bulbasaur">
+                </div>
+            </li>
+
+            <li class="pokemon grass">
+                <span class="number">#2</span>
+                <span class="name">ivysaur</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
+                        alt="ivysaur">
+                </div>
+            </li>
+
+            <li class="pokemon grass">
+                <span class="number">#3</span>
+                <span class="name">venusaur</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
+                        alt="venusaur">
+                </div>
+            </li>
+
+            <li class="pokemon fire">
+                <span class="number">#4</span>
+                <span class="name">charmander</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
+                        alt="charmander">
+                </div>
+            </li>
+
+            <li class="pokemon fire">
+                <span class="number">#5</span>
+                <span class="name">charmeleon</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
+                        alt="charmeleon">
+                </div>
+            </li>
+
+            <li class="pokemon fire">
+                <span class="number">#6</span>
+                <span class="name">charizard</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
+                        alt="charizard">
+                </div>
+            </li>
+
+            <li class="pokemon water">
+                <span class="number">#7</span>
+                <span class="name">squirtle</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg"
+                        alt="squirtle">
+                </div>
+            </li>
+
+            <li class="pokemon water">
+                <span class="number">#8</span>
+                <span class="name">wartortle</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg"
+                        alt="wartortle">
+                </div>
+            </li>
+
+            <li class="pokemon water">
+                <span class="number">#9</span>
+                <span class="name">blastoise</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type water">water</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg"
+                        alt="blastoise">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#10</span>
+                <span class="name">caterpie</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10.svg"
+                        alt="caterpie">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#11</span>
+                <span class="name">metapod</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/11.svg"
+                        alt="metapod">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#12</span>
+                <span class="name">butterfree</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/12.svg"
+                        alt="butterfree">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#13</span>
+                <span class="name">weedle</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg"
+                        alt="weedle">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#14</span>
+                <span class="name">kakuna</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/14.svg"
+                        alt="kakuna">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#15</span>
+                <span class="name">beedrill</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/15.svg"
+                        alt="beedrill">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#16</span>
+                <span class="name">pidgey</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/16.svg"
+                        alt="pidgey">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#17</span>
+                <span class="name">pidgeotto</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/17.svg"
+                        alt="pidgeotto">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#18</span>
+                <span class="name">pidgeot</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/18.svg"
+                        alt="pidgeot">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#19</span>
+                <span class="name">rattata</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/19.svg"
+                        alt="rattata">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#20</span>
+                <span class="name">raticate</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/20.svg"
+                        alt="raticate">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#21</span>
+                <span class="name">spearow</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg"
+                        alt="spearow">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#22</span>
+                <span class="name">fearow</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/22.svg"
+                        alt="fearow">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#23</span>
+                <span class="name">ekans</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/23.svg"
+                        alt="ekans">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#24</span>
+                <span class="name">arbok</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/24.svg"
+                        alt="arbok">
+                </div>
+            </li>
+
+            <li class="pokemon electric">
+                <span class="number">#25</span>
+                <span class="name">pikachu</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type electric">electric</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg"
+                        alt="pikachu">
+                </div>
+            </li>
+
+            <li class="pokemon electric">
+                <span class="number">#26</span>
+                <span class="name">raichu</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type electric">electric</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/26.svg"
+                        alt="raichu">
+                </div>
+            </li>
+
+            <li class="pokemon ground">
+                <span class="number">#27</span>
+                <span class="name">sandshrew</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ground">ground</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/27.svg"
+                        alt="sandshrew">
+                </div>
+            </li>
+
+            <li class="pokemon ground">
+                <span class="number">#28</span>
+                <span class="name">sandslash</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ground">ground</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/28.svg"
+                        alt="sandslash">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#29</span>
+                <span class="name">nidoran-f</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/29.svg"
+                        alt="nidoran-f">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#30</span>
+                <span class="name">nidorina</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/30.svg"
+                        alt="nidorina">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#31</span>
+                <span class="name">nidoqueen</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                        <li class="type ground">ground</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/31.svg"
+                        alt="nidoqueen">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#32</span>
+                <span class="name">nidoran-m</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/32.svg"
+                        alt="nidoran-m">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#33</span>
+                <span class="name">nidorino</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/33.svg"
+                        alt="nidorino">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#34</span>
+                <span class="name">nidoking</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                        <li class="type ground">ground</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/34.svg"
+                        alt="nidoking">
+                </div>
+            </li>
+
+            <li class="pokemon fairy">
+                <span class="number">#35</span>
+                <span class="name">clefairy</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fairy">fairy</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg"
+                        alt="clefairy">
+                </div>
+            </li>
+
+            <li class="pokemon fairy">
+                <span class="number">#36</span>
+                <span class="name">clefable</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fairy">fairy</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/36.svg"
+                        alt="clefable">
+                </div>
+            </li>
+
+            <li class="pokemon fire">
+                <span class="number">#37</span>
+                <span class="name">vulpix</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/37.svg"
+                        alt="vulpix">
+                </div>
+            </li>
+
+            <li class="pokemon fire">
+                <span class="number">#38</span>
+                <span class="name">ninetales</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type fire">fire</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/38.svg"
+                        alt="ninetales">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#39</span>
+                <span class="name">jigglypuff</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type fairy">fairy</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg"
+                        alt="jigglypuff">
+                </div>
+            </li>
+
+            <li class="pokemon normal">
+                <span class="number">#40</span>
+                <span class="name">wigglytuff</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type normal">normal</li>
+                        <li class="type fairy">fairy</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/40.svg"
+                        alt="wigglytuff">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#41</span>
+                <span class="name">zubat</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg"
+                        alt="zubat">
+                </div>
+            </li>
+
+            <li class="pokemon poison">
+                <span class="number">#42</span>
+                <span class="name">golbat</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type poison">poison</li>
+                        <li class="type flying">flying</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/42.svg"
+                        alt="golbat">
+                </div>
+            </li>
+
+            <li class="pokemon grass">
+                <span class="number">#43</span>
+                <span class="name">oddish</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg"
+                        alt="oddish">
+                </div>
+            </li>
+
+            <li class="pokemon grass">
+                <span class="number">#44</span>
+                <span class="name">gloom</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg"
+                        alt="gloom">
+                </div>
+            </li>
+
+            <li class="pokemon grass">
+                <span class="number">#45</span>
+                <span class="name">vileplume</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type grass">grass</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg"
+                        alt="vileplume">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#46</span>
+                <span class="name">paras</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type grass">grass</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/46.svg"
+                        alt="paras">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#47</span>
+                <span class="name">parasect</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type grass">grass</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/47.svg"
+                        alt="parasect">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#48</span>
+                <span class="name">venonat</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg"
+                        alt="venonat">
+                </div>
+            </li>
+
+            <li class="pokemon bug">
+                <span class="number">#49</span>
+                <span class="name">venomoth</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type bug">bug</li>
+                        <li class="type poison">poison</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/49.svg"
+                        alt="venomoth">
+                </div>
+            </li>
+
+            <li class="pokemon ground">
+                <span class="number">#50</span>
+                <span class="name">diglett</span>
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ground">ground</li>
+                    </ol>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/50.svg"
+                        alt="diglett">
+                </div>
+            </li>
+        </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">Load More</button>
+        </div>
+    </section>
+
+    <script src="./assets/javascript/"></script>
+    <script src="./assets/javascript/"></script>
+    <script src="./assets/javascript/"></script>
+</body>
+
+</html>
